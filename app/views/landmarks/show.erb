@@ -1,8 +1,8 @@
 
 Name: <%= @landmark.name %>
 <br><br>
-<%=yc = @landmark.year_completed%>
-Year Completed <%=yc.gsub!(/\A"|"\Z/, '')%>
+
+Year Completed <%=yc = @landmark.year_completed[1..-2]%>
 <br><br>
 
 Figure: <%= @landmark.figure.name %>
