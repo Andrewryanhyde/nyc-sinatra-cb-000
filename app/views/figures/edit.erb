@@ -1,4 +1,4 @@
-<h1>Edit a Figure: <%= @figure.name %></h1> 
+<h1>Edit a Figure: <%= @figure.name %></h1>
 
 <form action="/figures/<%= @figure.id %>" method="POST">
 	<input id="hidden" type="hidden" name="_method" value="patch">
@@ -42,7 +42,7 @@
 
 	<br>
 	<br>
-	
+
 	<input type="submit" id="edit_figure" value="Edit Figure">
 
 
